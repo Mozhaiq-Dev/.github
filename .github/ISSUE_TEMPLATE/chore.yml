@@ -1,0 +1,22 @@
+name: "🔧 Chore / Refactor"
+description: Internal improvement, cleanup, or maintenance task
+title: "[🔧Chore]: "
+labels: ["chore"]
+body:
+  - type: textarea
+    id: background
+    attributes:
+      label: Background (Motivation)
+      description: Why this is needed
+    validations:
+      required: true
+
+  - type: textarea
+    id: goals
+    attributes:
+      label: Goals
+      placeholder: |
+        - [ ] Goal 1
+        - [ ] Goal 2
+    validations:
+      required: true
